@@ -1,0 +1,11 @@
+streamlit
+matplotlib
+numpy==1.26.4
+seaborn
+
+# Use CPU TF on Linux (Streamlit Cloud)
+tensorflow==2.17.1 ; sys_platform != "darwin"
+
+# Use Apple builds on macOS (your laptop)
+tensorflow-macos ; sys_platform == "darwin"
+tensorflow-metal ; sys_platform == "darwin"
