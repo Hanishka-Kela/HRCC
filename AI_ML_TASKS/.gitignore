@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Mac system files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Streamlit folders
+.streamlit/
+
+# Model and dataset files
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.npy
+*.npz
+*.csv
+*.pkl
+
+# VSCode settings
+.vscode/
+
+# OS junk
+Thumbs.db
